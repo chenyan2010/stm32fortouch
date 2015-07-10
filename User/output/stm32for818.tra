@@ -1,0 +1,55 @@
+*** Creating Trace Output File '.\output\stm32for818.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\stm32f10x_i2c.o"'
+### List of Objects: adding '".\output\usb_core.o"'
+### List of Objects: adding '".\output\usb_init.o"'
+### List of Objects: adding '".\output\usb_int.o"'
+### List of Objects: adding '".\output\usb_mem.o"'
+### List of Objects: adding '".\output\usb_regs.o"'
+### List of Objects: adding '".\output\usb_sil.o"'
+### List of Objects: adding '".\output\m3_sys.o"'
+### List of Objects: adding '".\output\uart.o"'
+### List of Objects: adding '".\output\retarget.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\gpio.o"'
+### List of Objects: adding '".\output\tr.o"'
+### List of Objects: adding '".\output\adc.o"'
+### List of Objects: adding '".\output\tim.o"'
+### List of Objects: adding '".\output\hw_config.o"'
+### List of Objects: adding '".\output\user_config.o"'
+### List of Objects: adding '".\output\i2c_slave.o"'
+### List of Objects: adding '".\output\usb_pwr.o"'
+### List of Objects: adding '".\output\usb_desc.o"'
+### List of Objects: adding '".\output\usb_endp.o"'
+### List of Objects: adding '".\output\usb_istr.o"'
+### List of Objects: adding '".\output\usb_prop.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_stm32f10x_md.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\misc.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_adc.o" ".\output\stm32f10x_dma.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_i2c.o" ".\output\usb_core.o" ".\output\usb_init.o" ".\output\usb_int.o" ".\output\usb_mem.o" ".\output\usb_regs.o" ".\output\usb_sil.o" ".\output\m3_sys.o" ".\output\uart.o" ".\output\retarget.o" ".\output\main.o" ".\output\gpio.o" ".\output\tr.o" ".\output\adc.o" ".\output\tim.o" ".\output\hw_config.o" ".\output\user_config.o" ".\output\i2c_slave.o" ".\output\usb_pwr.o" ".\output\usb_desc.o" ".\output\usb_endp.o" ".\output\usb_istr.o" ".\output\usb_prop.o" ".\output\stm32f10x_it.o" 
+--library_type=microlib --strict --scatter ".\output\stm32for818.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\listing\stm32for818.map" -o .\output\stm32for818.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\stm32for818.axf'
+### ADS-LD Command File: '.\output\stm32for818.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\stm32for818.lnp', Handle=0x000003B4
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\stm32for818.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
